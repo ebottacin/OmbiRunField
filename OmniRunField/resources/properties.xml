@@ -1,0 +1,23 @@
+<resources>
+
+  <properties>
+    <property id="pMinIntervalPaceInSecondsDiff" type="number">30</property>
+	</properties>
+
+  <strings>
+    <!-- Release name: -->
+    <string id="AppName">OmniRunField</string>
+    <string id="AppVersion">1.0.0</string>
+    <string id="lMinIntervalPaceInSecondsDiffDisplay">Minimum Interval in seconds between Intervals and Rest</string>
+  </strings>
+
+
+  <settings>
+    <setting propertyKey="@Properties.pMinIntervalPaceInSecondsDiff" title="@Strings.lMinIntervalPaceInSecondsDiffDisplay">
+      <settingConfig type="numeric" required="true"/>
+    </setting>
+  </settings>
+
+  <bitmap id="LauncherIcon" filename="launcher_icon.png"></bitmap>
+
+</resources>
